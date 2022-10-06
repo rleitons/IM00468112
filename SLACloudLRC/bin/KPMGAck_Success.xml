@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<n1:DataPayload xmlns="http://www.fanniemae.com/enterprisedata/core/manifest/v1.0" xmlns:evnttypes="http://www.fanniemae.com/multifamily/eventTypes/v1.0" xmlns:srvtypes="http://www.fanniemae.com/enterprisedata/core/serviceTypes/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.fanniemae.com/multifamily/mfcs/receiveracknowledgement-v1.0.xsd">
+  <n1:RequestHeader>
+    <srvtypes:RequestCreationTimestamp>2017-09-22T18:13:55.2841873-04:00</srvtypes:RequestCreationTimestamp>
+    <srvtypes:RequestPostTimestamp>2017-09-22T15:18:57.1748439-04:00</srvtypes:RequestPostTimestamp>
+    <srvtypes:RequestID>d2dfc207-0482-484f-8dc0-280c9d55c91b</srvtypes:RequestID>
+    <srvtypes:applicationID>KPMG</srvtypes:applicationID>
+  </n1:RequestHeader>
+  <n1:SystemEventInfo>
+    <evnttypes:EventName>L2_FannieMaeTrustDissolved</evnttypes:EventName>
+  </n1:SystemEventInfo>
+  <n1:FNMReceiverAck schemaVersion="1.0.0">
+    <n1:FNMFileName>L2_FannieMaeTrustDissolved_20170714111815271.xml</n1:FNMFileName>
+    <n1:ReceivedStatus>Success</n1:ReceivedStatus>
+  </n1:FNMReceiverAck>
+</n1:DataPayload>
