@@ -1,0 +1,35 @@
+{
+  "MessageId": "${MESSAGE_ID}", 
+    "Type": "${TYPE}",
+    "TopicArn": "${TPOIC_ARN}",
+    "Subject": "${SUBJECT}",
+    
+    "Message": {
+     "awsRegion": "${MESSAGE_ATTRIBUTES_AWS_REGION}",
+     "s3BucketName": "${MESSAGE_ATTRIBUTES_S3_BUCKET_NAME}",
+     "s3ObjectKey": "${MESSAGE_ATTRIBUTES_S3_OBJECT_KEY}",
+     "s3ObjectSize": "${MESSAGE_ATTRIBUTES_S3_OBJECT_SIZE}",
+     "entity": "${MESSAGE_ATTRIBUTES_ENTITY_TYPE}",
+     "event": "${MESSAGE_ATTRIBUTES_EVENT_TYPE}",
+     "requestId": "${MESSAGE_ATTRIBUTES_REQUEST_ID}",
+     "protocol": "${MESSAGE_ATTRIBUTES_PROTOCOL}",
+     "pattern": "${MESSAGE_ATTRIBUTES_PATTERN}",
+     "status": "${MESSAGE_ATTRIBUTES_STATUS}",
+     "alertKey": "${MESSAGE_ATTRIBUTES_ALERTKEY}",
+     "message": "${MESSAGE_ATTRIBUTES_MESSAGE}",
+     "startTime": "${MESSAGE_ATTRIBUTES_START_TIME}",
+	 "endTime": "${MESSAGE_ATTRIBUTES_END_TIME}"     
+    },
+    
+    "Timestamp": "${TIME_STAMP}",
+    "SignatureVersion": "${SIGNATURE_VERSION}",
+    "Signature": "${SIGNATURE}",
+    "SigningCertURL": "${SIGN_IN_CERT_URL}",
+    "UnsubscribeURL": "${UNSUBSCRIBE_URL}",
+
+    
+    "MessageAttributes":{     
+    "B2BGW_FLEX": {"Type": "String","Value": "${B2BGW_FLEX}"}
+}
+  }  
+   
